@@ -1,0 +1,19 @@
+@import 'normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300&family=Open+Sans:wght@400;500;600&display=swap');
+
+:root {
+}
+
+html {
+    font-size: 62.5%;
+}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter Tight', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-rendering: optimizeSpeed;
+}
