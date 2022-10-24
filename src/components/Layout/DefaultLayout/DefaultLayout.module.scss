@@ -1,0 +1,21 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    height: 10000rem;
+    width: 100%;
+}
+.container {
+    width: var(--default-layout-width-content);
+    height: 100rem;
+    display: flex;
+    position: relative;
+}
+.content {
+    background-color: red;
+    width: calc(var(--default-layout-width-content) - var(--sidebar-width));
+    height: 100rem;
+    top: var(--default-layout-header-height);
+    left: var(--sidebar-width);
+    position: absolute;
+    z-index: 1;
+}

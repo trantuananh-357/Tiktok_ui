@@ -1,0 +1,15 @@
+.wrapper {
+    height: var(--default-layout-header-height, 6rem);
+    box-shadow: var(--border-color-box-shadow);
+    display: flex;
+    justify-content: center;
+
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+}
+.content {
+    height: 100%;
+    width: var(--default-layout-width-content, 6rem);
+    background-color: #ccc;
+}

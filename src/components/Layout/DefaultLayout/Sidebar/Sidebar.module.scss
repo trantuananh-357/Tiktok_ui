@@ -1,0 +1,8 @@
+.sidebar {
+    width: var(--sidebar-width);
+    background-color: aquamarine;
+    position: fixed;
+    top: var(--default-layout-header-height);
+    min-height: 100rem;
+    z-index: 100;
+}
