@@ -1,0 +1,32 @@
+.wrapper {
+    width: 34rem;
+    padding: 20px 0 26px 8px;
+    height: 70rem;
+    overflow-x: hidden;
+    overflow-y: auto;
+    overscroll-behavior-y: contain;
+    perspective: 1px;
+    transform-style: preserve-3d;
+    perspective-origin: right top;
+    position: fixed;
+    &::-webkit-scrollbar {
+        width: 8px;
+    }
+    &::-webkit-scrollbar-thumb {
+        border-radius: 1000rem;
+        background: rgba(22, 24, 35, 0.06);
+        height: 10px;
+    }
+    &::-webkit-scrollbar-track {
+        background-color: #fff;
+        border-radius: 1000rem;
+    }
+}
+.border-bottom {
+    border-bottom: 1px solid rgba(22, 24, 35, 0.12);
+    height: 1px;
+    width: 95%;
+    margin-top: 8px;
+
+    display: block;
+}

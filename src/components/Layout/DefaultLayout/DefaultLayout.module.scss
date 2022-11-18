@@ -1,7 +1,7 @@
 .wrapper {
     display: flex;
     justify-content: center;
-    height: 10000rem;
+    height: 100rem;
     width: 100%;
 }
 .container {
@@ -9,9 +9,9 @@
     height: 100rem;
     display: flex;
     position: relative;
+    margin-top: 6rem;
 }
 .content {
-    background-color: red;
     width: calc(var(--default-layout-width-content) - var(--sidebar-width));
     height: 100rem;
     top: var(--default-layout-header-height);

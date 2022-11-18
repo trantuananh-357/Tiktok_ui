@@ -7,9 +7,73 @@
     position: fixed;
     z-index: 1000;
     width: 100%;
+    background-color: #fff;
 }
 .content {
     height: 100%;
     width: var(--default-layout-width-content, 6rem);
-    background-color: #ccc;
+    padding: 0 2.4rem 0 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .action {
+        height: 100%;
+        align-items: center;
+        display: flex;
+        position: relative;
+        .btn_menu {
+            width: 20px;
+            height: 20px;
+            font-size: 2rem;
+            background-color: transparent;
+            margin-left: 16px;
+            padding: 0 4px;
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+//After login
+.user-avatar {
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: 24px;
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.user-messsage {
+    margin-left: 16px;
+    height: 32px;
+    padding: 3px 3px 0;
+    position: relative;
+    background-color: transparent;
+    &:hover {
+        cursor: pointer;
+    }
+    .message-btn {
+        width: 26px;
+        height: 26px;
+    }
+}
+
+.user-mailBox {
+    margin-left: 16px;
+    height: 32px;
+    padding: 3px 3px 0;
+    position: relative;
+    background-color: transparent;
+    &:hover {
+        cursor: pointer;
+    }
+    // .mailBox-btn {
+    //     width: px;
+    //     height: 26px;
+    // }
 }

@@ -1,5 +1,4 @@
 @import 'normalize.css';
-@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300&family=Open+Sans:wght@400;500;600&display=swap');
 
 :root {
     // Defauly Layout
@@ -7,6 +6,14 @@
     --default-layout-width-content: 115rem;
     --sidebar-width: 34rem;
     --border-color-box-shadow: 0px 1px 1px rgb(0 0 0 / 12%);
+
+    // header
+
+    --backGround-input-color: rgb(232, 232, 232);
+
+    --primary-color: rgba(255, 255, 255, 1);
+    --primary-background-color: rgba(255, 59, 92, 1);
+    --button--background-color-default: rgb(232, 232, 232);
 }
 
 html {
@@ -19,8 +26,73 @@ html {
 }
 
 body {
-    font-family: 'Inter Tight', sans-serif;
+    font-family: 'ProximaNova';
     font-size: 1.6rem;
     line-height: 1.5;
     text-rendering: optimizeSpeed;
+
+    &::-webkit-scrollbar {
+        width: 8px;
+    }
+    &::-webkit-scrollbar-thumb {
+        border-radius: 1000rem;
+        background: rgba(22, 24, 35, 0.06);
+        height: 10px;
+    }
+    &::-webkit-scrollbar-track {
+        background-color: #fff;
+        border-radius: 1000rem;
+    }
+    .tippy-box {
+        border-radius: 8px;
+        font-weight: 600;
+        font-size: 1.6rem;
+        line-height: 2.2rem;
+        background-color: rgba(84, 84, 84, 0.92);
+    }
+
+    .tippy-arrow {
+        color: rgba(84, 84, 84, 0.92);
+    }
+
+    .tippy-content {
+        padding: 8px 9px;
+    }
+
+    .tippy-box[data-placement^='bottom'] > .tippy-arrow:before {
+        top: -8px;
+    }
+}
+button,
+input,
+[tabindex] {
+    outline: none;
+    border: none;
+}
+
+a[href] {
+    text-decoration: none;
+    color: black;
+}
+
+@font-face {
+    font-family: ProximaNova;
+    src: url('../../assets/fonts/Proxima-Nova-Regular.woff2');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: ProximaNova;
+    src: url('../../assets/fonts/Proxima-Nova-Semibold.woff2');
+    font-weight: 600;
+}
+@font-face {
+    font-family: ProximaNova;
+    src: url('../../assets/fonts/ProximaNova-Semibold.woff2');
+    font-weight: 700;
+}
+@font-face {
+    font-family: SoFiapro;
+    src: url('../../assets/fonts/sofiapro-semibold.otf');
+    font-weight: 700;
 }

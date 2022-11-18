@@ -1,0 +1,39 @@
+.menu-items {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    font-size: 1.8rem;
+    font-weight: 700;
+    border-radius: 4px;
+    color: var(--text-color);
+    transition: background-color ease-in-out 200ms;
+    &.action {
+        color: rgba(254, 44, 85, 1);
+
+        .icon {
+            display: none;
+        }
+        .action_icon {
+            display: flex;
+        }
+    }
+    &:hover {
+        background-color: rgba(22, 24, 35, 0.03);
+    }
+}
+
+.icon,
+.action_icon {
+    display: flex;
+    margin-right: 8px;
+}
+
+.action_icon {
+    display: none;
+}
+.title {
+    font-family: ProximaNova, Arial, Tahoma, PingFangSC, sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 25px;
+}

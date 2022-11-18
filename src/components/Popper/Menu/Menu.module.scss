@@ -1,0 +1,51 @@
+.menu-list {
+    min-width: 23rem;
+    position: absolute;
+    right: -3rem;
+    top: 4.5rem;
+    .menu {
+        margin-left: 0 !important;
+        height: 4.2rem;
+        font-family: 'IBM Plex Sans', ProximaNova, Arial, Tahoma, PingFangSC, sans-serif;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 22px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        padding: 10px 8px 10px 16px;
+        &:hover {
+            background: rgba(22, 24, 35, 0.03);
+        }
+    }
+}
+.menu-popper {
+    padding-bottom: 8px;
+}
+
+//Menu language
+.header {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+    height: 50px;
+}
+.btn-back {
+    margin-left: 28px;
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.menu-title_language {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}

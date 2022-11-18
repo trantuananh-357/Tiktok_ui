@@ -1,0 +1,82 @@
+.wrapper {
+    width: 30rem;
+    padding: 20px;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    margin-bottom: 12px;
+    .avata-user_tippy {
+        display: block;
+        width: 44px;
+        height: 44px;
+        object-fit: cover;
+        border-radius: 50%;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
+.body {
+    display: flex;
+    flex-direction: column;
+
+    .user {
+        display: flex;
+        color: rgb(22, 24, 35);
+        font-family: 'IBM Plex Sans', SofiaPro, Arial, Tahoma, PingFangSC, sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+        .checkIcon {
+            margin-left: 4px;
+            color: rgb(32, 213, 236);
+        }
+    }
+    .user-realName {
+        color: rgb(22, 24, 35);
+        font-family: 'IBM Plex Sans', ProximaNova, Arial, Tahoma, PingFangSC, sans-serif;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+        margin: 0 0 8px 0;
+        user-select: none;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+    .user-nickName {
+        user-select: none;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    .analytics {
+        display: flex;
+        color: rgb(177, 170, 170);
+        .total_follow {
+            margin-right: 16px;
+            .follower {
+                margin-right: 4px;
+                font-family: 'IBM Plex Sans', ProximaNova, Arial, Tahoma, PingFangSC, sans-serif;
+                color: rgb(10, 10, 11);
+                opacity: 1;
+            }
+        }
+        .total_like {
+            .liker {
+                margin-right: 4px;
+                font-family: 'IBM Plex Sans', ProximaNova, Arial, Tahoma, PingFangSC, sans-serif;
+                color: rgba(22, 24, 35, 1);
+                opacity: 1;
+            }
+        }
+    }
+}
