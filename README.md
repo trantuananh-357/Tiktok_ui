@@ -9,5 +9,3 @@ Tối ưu hoá component, có thể dùng lại được nhiều thành phần
 
 
 
-Chia layout thành hai phần chính , Vì chúng ta thấy 2 sự thay đổi trong giao điẹn tiktok hiện tại - 2022
-
