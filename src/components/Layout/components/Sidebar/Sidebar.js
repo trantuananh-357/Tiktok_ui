@@ -16,7 +16,7 @@ function Sidebar() {
                     title="For You"
                     icon={<HomeIcon />}
                     actionIcon={<HomeActiveIcon />}
-                    to={config.routes.home}
+                    to={config.routes.homeMain}
                 ></MenuItems>
                 {/* {console.log(test)} */}
                 <MenuItems

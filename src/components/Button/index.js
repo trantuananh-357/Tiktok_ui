@@ -26,7 +26,6 @@ function Button({
     let Comp = 'button';
     let props = {
         onClick,
-        ...passProps,
     };
     if (to) {
         props.to = to;
