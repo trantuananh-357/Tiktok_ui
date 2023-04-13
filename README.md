@@ -9,3 +9,7 @@ Tối ưu hoá component, có thể dùng lại được nhiều thành phần
 
 
 
+Review website và để lại đánh giá giúp mình với nhaaa❤️:
+https://itatiktok.netlify.app/
+
+
